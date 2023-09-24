@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:	#008000;
+  background-color:aliceblue;
   /* background-image: url(/public/patterns/hip-square.png); */
 }
 
@@ -67,10 +67,11 @@ h2 {
   border: 15px solid rgb(11, 175, 148);
   padding: 50px;
   position: sticky;
+  margin-top: 0px;;
   background-color: #fff;
   /* top: calc(50% - 205px); */
-
   top: 200px;
+  z-index:
 }
 
 .clickable {
@@ -122,6 +123,7 @@ h2 {
   }
   .avatar-wrapper {
     padding: 0px;
+    position: sticky;
   }
 }
 
@@ -159,19 +161,22 @@ h2 {
 }
 .group-button-change {
   width: 120px;
+  height:380px;
   display: inline-block;
   border: 2px solid rgb(11, 175, 148);
   border-radius: 10px;
   padding: 0px;
-  position: sticky;
   background-color: #fff;
   margin-right: 2px;
   margin-top: 80px;
   top: calc(50% - 250px);
+  position: sticky;
 }
+
 .avatar-area {
   display: flex;
   align-items: flex-start;
+  position: sticky;
 }
 /* .group-button-change button {
   border: none;
